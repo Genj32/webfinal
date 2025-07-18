@@ -1,0 +1,351 @@
+body   {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin: 10px;
+    padding: 50px;
+    background-color: #272323;
+    color: #f7f0f0;
+}
+
+a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.vinculos{
+    font-family: Bebas Neue;
+    padding: 0px 40px 0px;
+    background-color: rgb(70, 8, 8);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trailer{
+    max-width: 100%;
+    height: 700px;
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px; 
+}
+
+header {
+    border-radius: 30px;
+    background-image: url(./img/1212.webp);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    font-size:x-large;
+    background-color: #ffffff;
+    color : #e9dcdc;
+    padding :20px;
+    text-align:center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+main {
+    border-radius: 50px;
+    font-size: larger;
+    padding: 20px;
+    text-align: left;
+}
+
+section {
+    margin-bottom: 10px;
+    background-color: rgba(63, 1, 1, 0.747);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Rogue Hero Expanded', sans-serif;
+    text-shadow: 2px 2px 4px rgba(126, 33, 33, 0.1);
+}  
+
+h2,h3 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Rogue Hero Expanded', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+img { 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 40px;
+}
+
+.fondo-disney img,
+.escenarios img,
+.pose-chistosa img,
+.deadpool-tapado-boca img,
+.tirando-corazon img,
+.ia-produccion img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.fondo-disney figcaption,
+.escenarios figcaption,
+.pose-chistosa figcaption,
+.deadpool-tapado-boca figcaption,
+.tirando-corazon figcaption,
+.ia-produccion figcaption {
+    text-align: center;
+    max-width: 800px;
+}
+
+footer {
+    border-radius: 30px;
+    background-color: #000000;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.contenedor-actores{
+    font-size: larger;
+    gap: 20px;
+    text-align: start;
+    background-color: rgba(63, 1, 1, 0.747);
+    padding: 20px;
+    display: flexbox;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px); 
+    background-color: #5c0000; 
+    box-shadow: rgba(255, 254, 254, 0.9);
+}
+
+.tarjeta figure {
+    margin: 0;
+    padding: 0;
+}
+
+.tarjeta img {
+    width: 300px;
+    height: 400px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.tarjeta figcaption {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.tarjeta p {
+    font-size: 20px;
+    margin: 10px ;
+}
+
+.tarjeta ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    font-size: 15px;
+}
+
+.contacto {
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.grupo-formulario { 
+    margin-bottom: 20px;
+}
+
+.grupo-formulario textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #727272;
+    color: #f7f0f0;
+}
+
+.grupo-formulario input {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #727272; 
+    color: #ffffff; 
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.deadpoolcarta{
+    font-size: 20px;
+    margin: 10px ;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+#boton{
+    background-color: #a80909;
+     border: none;
+     color: white;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 5px;
+
+}
+
+
+
+.back-link {
+    background-color: #8b0000 !important;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.back-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+@media (max-width: 900px) {
+    body {
+        padding: 20px;
+    }
+    main {
+        padding: 15px;
+        border-radius: 20px;
+    }
+    section {
+        padding: 20px;
+        border-radius: 15px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+}
+
+
+@media (max-width: 600px) {
+    
+    body {
+        margin: 0;
+        padding: 10px;
+        font-size: medium; 
+    }
+    main {
+        padding: 10px;
+        border-radius: 10px;
+        font-size: medium;
+    }
+
+    section {
+        padding: 8px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2, h3 {
+        font-size: 24px;
+    }
+
+    .tarjeta {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .tarjeta img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contenedor-actores {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+   
+    img, video, iframe {
+        max-width: 100%;
+        height: auto !important;
+    }
+
+    .texto-largo {
+        display: none;
+    }
+
+    footer p{
+    font-size: 10px;
+
+}
+}
+
+
